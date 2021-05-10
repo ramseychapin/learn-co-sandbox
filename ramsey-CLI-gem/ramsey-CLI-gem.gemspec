@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "ramsey/CLI/data/gem/project/version"
+require "ramsey/CLI/gem/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "ramsey-CLI-data-gem-project"
-  spec.version       = Ramsey::CLI::Data::Gem::Project::VERSION
+  spec.name          = "ramsey-CLI-gem"
+  spec.version       = Ramsey::CLI::Gem::VERSION
   spec.authors       = ["'Ramsey Chapin'"]
   spec.email         = ["'ramsey@ramseychapin.com'"]
 
